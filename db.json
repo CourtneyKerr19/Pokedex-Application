@@ -1,0 +1,36 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "height": 7,
+      "weight": 69,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+      },
+      "types": [
+        { "type": { "name": "grass" } },
+        { "type": { "name": "poison" } }
+      ],
+      "abilities": [
+        { "ability": { "name": "overgrow" } },
+        { "ability": { "name": "chlorophyll" } }
+      ],
+      "stats": [
+        { "base_stat": 45, "stat": { "name": "hp" } },
+        { "base_stat": 49, "stat": { "name": "attack" } },
+        { "base_stat": 49, "stat": { "name": "defense" } },
+        { "base_stat": 65, "stat": { "name": "special-attack" } },
+        { "base_stat": 65, "stat": { "name": "special-defense" } },
+        { "base_stat": 45, "stat": { "name": "speed" } }
+      ],
+      "moves": [
+        { "move": { "name": "tackle" } },
+        { "move": { "name": "vine-whip" } }
+      ],
+      "species": {
+        "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+      }
+    }
+  ]
+}
